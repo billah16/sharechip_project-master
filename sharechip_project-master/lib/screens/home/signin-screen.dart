@@ -67,7 +67,7 @@ class SignIn extends StatelessWidget {
             ),
             Container(
               padding: EdgeInsets.only(left: 21, right: 21),
-              child: reusableTextField("Username", Icons.person_outline, false,
+              child: reusableTextField("Email", Icons.person_outline, false,
                   _emailTextController),
             ),
             SizedBox(
